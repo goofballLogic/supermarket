@@ -1,5 +1,5 @@
 SELECT
-    CONCAT(i, ') ', [Name], '. ', quantity, ' @ £', price)
+    CONCAT(i, ') ', [Name], '. ', quantity, ' @ £', price, " = £", price * quantity)
 FROM (
     SELECT
         p.[Name],
